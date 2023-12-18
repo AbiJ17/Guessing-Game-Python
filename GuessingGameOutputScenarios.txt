@@ -1,0 +1,432 @@
+-------------------------------------------------------------------------------------------------------------
+OUTPUT SCENARIO 1: USER GUESSES CORRECT NUMBER
+
+Oh no! You are trapped inside of the building! The greedy security guard doesn't allow you to leave!
+The security guard challenges you to a guessing game! Here are his rules.
+
+RULES: 
+1. Enter a number between 1 and 50.
+2. The security guard will guess a random number between 1 and 50.
+3. If the numbers are the same, you win and you get to leave. You get 15 attempts to guess the number.
+4. If you can't guess the number in 15 attempts, then you lose and you will be trapped forever!
+5. If you want to give up during those 15 attempts, then enter -1.
+
+Enter a number between 1-50 (Enter -1 to give up): 24
+
+Your guess is: False
+Try again!
+Attempts used: 
+1
+
+Enter a number between 1-50 (Enter -1 to give up): 15
+
+Your guess is: False
+Try again!
+Attempts used: 
+2
+
+Enter a number between 1-50 (Enter -1 to give up): 18
+
+Your guess is: True
+
+Congratulations! You won the game! You are free!
+The security guard's number was: 
+18
+
+-------------------------------------------------------------------------------------------------------------
+OUTPUT SCENARIO 2: USER GUESSES WRONG NUMBER, USES UP ALL 15 ATTEMPTS
+
+Oh no! You are trapped inside of the building! The greedy security guard doesn't allow you to leave!
+The security guard challenges you to a guessing game! Here are his rules.
+
+RULES: 
+1. Enter a number between 1 and 50.
+2. The security guard will guess a random number between 1 and 50.
+3. If the numbers are the same, you win and you get to leave. You get 15 attempts to guess the number.
+4. If you can't guess the number in 15 attempts, then you lose and you will be trapped forever!
+5. If you want to give up during those 15 attempts, then enter -1.
+
+Enter a number between 1-50 (Enter -1 to give up): 23
+
+Your guess is: False
+Try again!
+Attempts used: 
+1
+
+Enter a number between 1-50 (Enter -1 to give up): 48
+
+Your guess is: False
+Try again!
+Attempts used: 
+2
+
+Enter a number between 1-50 (Enter -1 to give up): 5
+
+Your guess is: False
+Try again!
+Attempts used: 
+3
+
+Enter a number between 1-50 (Enter -1 to give up): 13
+
+Your guess is: False
+Try again!
+Attempts used: 
+4
+
+Enter a number between 1-50 (Enter -1 to give up): 11
+
+Your guess is: False
+Try again!
+Attempts used: 
+5
+
+Enter a number between 1-50 (Enter -1 to give up): 29
+
+Your guess is: False
+Try again!
+Attempts used: 
+6
+
+Enter a number between 1-50 (Enter -1 to give up): 27
+
+Your guess is: False
+Try again!
+Attempts used: 
+7
+
+Enter a number between 1-50 (Enter -1 to give up): 45
+
+Your guess is: False
+Try again!
+Attempts used: 
+8
+
+Enter a number between 1-50 (Enter -1 to give up): 35
+
+Your guess is: False
+Try again!
+Attempts used: 
+9
+
+Enter a number between 1-50 (Enter -1 to give up): 9
+
+Your guess is: False
+Try again!
+Attempts used: 
+10
+
+Enter a number between 1-50 (Enter -1 to give up): 3
+
+Your guess is: False
+Try again!
+Attempts used: 
+11
+
+Enter a number between 1-50 (Enter -1 to give up): 39
+
+Your guess is: False
+Try again!
+Attempts used: 
+12
+
+Enter a number between 1-50 (Enter -1 to give up): 43
+
+Your guess is: False
+Try again!
+Attempts used: 
+13
+
+Enter a number between 1-50 (Enter -1 to give up): 32
+
+Your guess is: False
+Try again!
+Attempts used: 
+14
+
+Enter a number between 1-50 (Enter -1 to give up): 43
+
+Your guess is: False
+Try again!
+Attempts used: 
+15
+
+Looks like you have used up all of your attempts. Since you didn't guess the number, you lose!
+You are trapped forever!
+The security guard's number was: 
+25
+
+-------------------------------------------------------------------------------------------------------------
+OUTPUT SCENARIO 3: USER DECIDES TO GIVE UP WHILE FAILING TO GUESS CORRECT NUMBER
+
+Oh no! You are trapped inside of the building! The greedy security guard doesn't allow you to leave!
+The security guard challenges you to a guessing game! Here are his rules.
+
+RULES: 
+1. Enter a number between 1 and 50.
+2. The security guard will guess a random number between 1 and 50.
+3. If the numbers are the same, you win and you get to leave. You get 15 attempts to guess the number.
+4. If you can't guess the number in 15 attempts, then you lose and you will be trapped forever!
+5. If you want to give up during those 15 attempts, then enter -1.
+
+Enter a number between 1-50 (Enter -1 to give up): 10
+
+Your guess is: False
+Try again!
+Attempts used: 
+1
+
+Enter a number between 1-50 (Enter -1 to give up): 9
+
+Your guess is: False
+Try again!
+Attempts used: 
+2
+
+Enter a number between 1-50 (Enter -1 to give up): 32
+
+Your guess is: False
+Try again!
+Attempts used: 
+3
+
+Enter a number between 1-50 (Enter -1 to give up): 31
+
+Your guess is: False
+Try again!
+Attempts used: 
+4
+
+Enter a number between 1-50 (Enter -1 to give up): 29
+
+Your guess is: False
+Try again!
+Attempts used: 
+5
+
+Enter a number between 1-50 (Enter -1 to give up): -1
+
+Do you want to accept defeat to the security guard? 
+Enter yes or no: yes
+
+You have accepted defeat. You are trapped forever!
+The security guard's number was: 
+18
+
+-------------------------------------------------------------------------------------------------------------
+OUTPUT SCENARIO 4: USER PROMPTS GIVE-UP MESSAGE, BUT DOESN'T GIVE-UP AND CONTINUES PLAYING
+
+Oh no! You are trapped inside of the building! The greedy security guard doesn't allow you to leave!
+The security guard challenges you to a guessing game! Here are his rules.
+
+RULES: 
+1. Enter a number between 1 and 50.
+2. The security guard will guess a random number between 1 and 50.
+3. If the numbers are the same, you win and you get to leave. You get 15 attempts to guess the number.
+4. If you can't guess the number in 15 attempts, then you lose and you will be trapped forever!
+5. If you want to give up during those 15 attempts, then enter -1.
+
+Enter a number between 1-50 (Enter -1 to give up): 3
+
+Your guess is: False
+Try again!
+Attempts used: 
+1
+
+Enter a number between 1-50 (Enter -1 to give up): 32
+
+Your guess is: False
+Try again!
+Attempts used: 
+2
+
+Enter a number between 1-50 (Enter -1 to give up): 45
+
+Your guess is: False
+Try again!
+Attempts used: 
+3
+
+Enter a number between 1-50 (Enter -1 to give up): -1
+
+Do you want to accept defeat to the security guard? 
+Enter yes or no: no
+
+You have choosen to continue the game
+Since you chose no, you lose an attempt! Don't play around!
+
+Enter a number between 1-50 (Enter -1 to give up): 7
+
+Your guess is: False
+Try again!
+Attempts used: 
+5
+
+Enter a number between 1-50 (Enter -1 to give up): 23
+
+Your guess is: False
+Try again!
+Attempts used: 
+6
+
+Enter a number between 1-50 (Enter -1 to give up): 50
+
+Your guess is: False
+Try again!
+Attempts used: 
+7
+
+Enter a number between 1-50 (Enter -1 to give up): 2
+
+Your guess is: False
+Try again!
+Attempts used: 
+8
+
+Enter a number between 1-50 (Enter -1 to give up): 4
+
+Your guess is: False
+Try again!
+Attempts used: 
+9
+
+Enter a number between 1-50 (Enter -1 to give up): 9
+
+Your guess is: False
+Try again!
+Attempts used: 
+10
+
+Enter a number between 1-50 (Enter -1 to give up): 11
+
+Your guess is: False
+Try again!
+Attempts used: 
+11
+
+Enter a number between 1-50 (Enter -1 to give up): -1
+
+Do you want to accept defeat to the security guard? 
+Enter yes or no: no
+
+You have choosen to continue the game
+Since you chose no, you lose an attempt! Don't play around!
+
+Enter a number between 1-50 (Enter -1 to give up): 43
+
+Your guess is: False
+Try again!
+Attempts used: 
+13
+
+Enter a number between 1-50 (Enter -1 to give up): 32
+
+Your guess is: False
+Try again!
+Attempts used: 
+14
+
+Enter a number between 1-50 (Enter -1 to give up): 27
+
+Your guess is: False
+Try again!
+Attempts used: 
+15
+
+Looks like you have used up all of your attempts. Since you didn't guess the number, you lose!
+You are trapped forever!
+The security guard's number was: 
+31
+
+-------------------------------------------------------------------------------------------------------------
+OUTPUT SCENARIO 5: USER DOESN'T ENTER A NUMBER BETWEEN 1-50 WHILE GUESSING 
+
+Oh no! You are trapped inside of the building! The greedy security guard doesn't allow you to leave!
+The security guard challenges you to a guessing game! Here are his rules.
+
+RULES: 
+1. Enter a number between 1 and 50.
+2. The security guard will guess a random number between 1 and 50.
+3. If the numbers are the same, you win and you get to leave. You get 15 attempts to guess the number.
+4. If you can't guess the number in 15 attempts, then you lose and you will be trapped forever!
+5. If you want to give up during those 15 attempts, then enter -1.
+
+Enter a number between 1-50 (Enter -1 to give up): 0
+Number is not between 1-50, try again.
+Attempts used: 
+1
+
+Enter a number between 1-50 (Enter -1 to give up): -142
+Number is not between 1-50, try again.
+Attempts used: 
+2
+
+Enter a number between 1-50 (Enter -1 to give up): -900
+Number is not between 1-50, try again.
+Attempts used: 
+3
+
+Enter a number between 1-50 (Enter -1 to give up): -232
+Number is not between 1-50, try again.
+Attempts used: 
+4
+
+Enter a number between 1-50 (Enter -1 to give up): -12
+Number is not between 1-50, try again.
+Attempts used: 
+5
+
+Enter a number between 1-50 (Enter -1 to give up): 78
+Number is not between 1-50, try again.
+Attempts used: 
+6
+
+Enter a number between 1-50 (Enter -1 to give up): 90
+Number is not between 1-50, try again.
+Attempts used: 
+7
+
+Enter a number between 1-50 (Enter -1 to give up): 120
+Number is not between 1-50, try again.
+Attempts used: 
+8
+
+Enter a number between 1-50 (Enter -1 to give up): 10000
+Number is not between 1-50, try again.
+Attempts used: 
+9
+
+Enter a number between 1-50 (Enter -1 to give up): 2043
+Number is not between 1-50, try again.
+Attempts used: 
+10
+
+Enter a number between 1-50 (Enter -1 to give up): 235
+Number is not between 1-50, try again.
+Attempts used: 
+11
+
+Enter a number between 1-50 (Enter -1 to give up): 789
+Number is not between 1-50, try again.
+Attempts used: 
+12
+
+Enter a number between 1-50 (Enter -1 to give up): -12311
+Number is not between 1-50, try again.
+Attempts used: 
+13
+
+Enter a number between 1-50 (Enter -1 to give up): -2321312
+Number is not between 1-50, try again.
+Attempts used: 
+14
+
+Enter a number between 1-50 (Enter -1 to give up): 9231
+Number is not between 1-50, try again.
+Attempts used: 
+15
+
+Looks like you have used up all of your attempts. Since you didn't guess the number, you lose!
+You are trapped forever!
+The security guard's number was: 
+41
